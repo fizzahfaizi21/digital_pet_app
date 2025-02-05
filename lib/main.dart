@@ -53,7 +53,7 @@ super.dispose();
 Widget build(BuildContext context) {
 // For the ToDo task hint: consider defining the widget and name of the
 tabs here
-final tabs = ['Tab 1', 'Tab 2', 'Tab 3'];
+final tabs = ['cat', 'dog', 'penguin'];
 return Scaffold(
 appBar: AppBar(
 automaticallyImplyLeading: false,
