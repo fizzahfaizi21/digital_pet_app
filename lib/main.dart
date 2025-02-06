@@ -23,7 +23,7 @@ with SingleTickerProviderStateMixin, RestorationMixin {
 late TabController _tabController;
 final RestorableInt tabIndex = RestorableInt(0);
 @override
-String get restorationId => 'tab_non_scrollable_demo';
+String get restorationId => 'Digital Pet App';
 @override
 void restoreState(RestorationBucket? oldBucket, bool initialRestore) {
 registerForRestoration(tabIndex, 'tab_index');
